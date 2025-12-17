@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 19.8
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "BeamHeight",
@@ -75,7 +76,7 @@
         },
         {
           "name": "x",
-          "ioValue": 19.8
+          "ioValue": 10
         }
       ],
       "currentEquation": "y - 4*x"
@@ -155,7 +156,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 123.8
+          "ioValue": 163
         }
       ],
       "currentEquation": "x/2"
@@ -172,7 +173,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 61.9
+          "ioValue": 81.5
         },
         {
           "name": "zDist",
@@ -189,7 +190,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 61.9
+          "ioValue": 81.5
         }
       ],
       "currentEquation": "-x"
@@ -220,7 +221,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -61.9
+          "ioValue": -81.5
         },
         {
           "name": "zDist",
@@ -468,7 +469,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 19.8
+          "ioValue": 10
         }
       ],
       "currentEquation": "3*x"
@@ -495,7 +496,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 59.400000000000006
+          "ioValue": 30
         },
         {
           "name": "y length",
@@ -561,11 +562,11 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 59.400000000000006
+          "ioValue": 30
         },
         {
           "name": "y",
-          "ioValue": 19.8
+          "ioValue": 10
         }
       ],
       "currentEquation": "x + 4*y"
@@ -592,7 +593,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 138.60000000000002
+          "ioValue": 70
         },
         {
           "name": "y length",
@@ -790,7 +791,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 19.8
+          "ioValue": 10
         }
       ]
     }
