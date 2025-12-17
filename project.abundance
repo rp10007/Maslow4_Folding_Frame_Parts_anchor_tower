@@ -461,17 +461,17 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.1116504854368932,
-      "y": 0.15011547344110854,
+      "x": 0.1197411003236246,
+      "y": 0.21016166281755197,
       "uniqueID": "id-436",
-      "name": "2*x",
+      "name": "3*x",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 19.8
         }
       ],
-      "currentEquation": "2*x"
+      "currentEquation": "3*x"
     },
     {
       "atomType": "Equation",
@@ -486,6 +486,22 @@
         }
       ],
       "currentEquation": "-x"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.3915857605177993,
+      "y": 0.20554272517321018,
+      "uniqueID": "id-1084",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 100
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -553,6 +569,11 @@
       "ap2Name": "x",
       "ap1ID": "id-44",
       "ap2ID": "id-118"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-44",
+      "ap2ID": "id-1084"
     },
     {
       "ap2Name": "geometry",
