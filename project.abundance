@@ -601,13 +601,61 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.4622437971952535,
-      "y": 0.2632794457274827,
+      "x": 0.3964401294498382,
+      "y": 0.29330254041570436,
       "uniqueID": "id-1114",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 60
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.35059331175836034,
+      "y": 0.41570438799076215,
+      "uniqueID": "id-1117",
+      "name": "AnchorVoidDiam",
+      "value": 60
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.39104638619201726,
+      "y": 0.15011547344110854,
+      "uniqueID": "id-1233"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.35221143473570654,
+      "y": 0.5381062355658198,
+      "uniqueID": "id-1237",
+      "name": ".5*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 260
+        }
+      ],
+      "currentEquation": ".5*x"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.45846817691477887,
+      "y": 0.4064665127020785,
+      "uniqueID": "id-1241",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 130
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     }
@@ -859,6 +907,11 @@
       "ap2ID": "id-1102"
     },
     {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-1084",
+      "ap2ID": "id-1233"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-1088",
       "ap2ID": "id-1092"
@@ -877,6 +930,36 @@
       "ap2Name": "y length",
       "ap1ID": "id-1106",
       "ap2ID": "id-1110"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-1106",
+      "ap2ID": "id-1237"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-1110",
+      "ap2ID": "id-1233"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1114",
+      "ap2ID": "id-1241"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-1117",
+      "ap2ID": "id-1114"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1233",
+      "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-1237",
+      "ap2ID": "id-1241"
     }
   ],
   "unitsKey": "MM",
