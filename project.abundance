@@ -1034,6 +1034,12 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.9180151024811218,
+      "y": 0.23556581986143188,
+      "uniqueID": "id-1974"
     }
   ],
   "allConnectors": [
@@ -1438,6 +1444,11 @@
       "ap2ID": "id-14"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-1477",
+      "ap2ID": "id-1974"
+    },
+    {
       "ap2Name": "height",
       "ap1ID": "id-1483",
       "ap2ID": "id-1098"
@@ -1561,6 +1572,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-1744",
       "ap2ID": "id-1969"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-1744",
+      "ap2ID": "id-1974"
     },
     {
       "ap2Name": "Shape 2",
