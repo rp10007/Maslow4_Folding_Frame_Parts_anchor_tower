@@ -37,7 +37,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.242,
+      "y": 0.176,
       "uniqueID": "id-21",
       "name": "BitDiameter",
       "type": "number"
@@ -45,7 +45,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.308,
+      "y": 0.242,
       "uniqueID": "id-24",
       "name": "Bolt2Diameter",
       "type": "number"
@@ -156,8 +156,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.3705501618122978,
-      "y": 0.838337182448037,
+      "x": 0.3700107874865156,
+      "y": 0.815242494226328,
       "uniqueID": "id-168",
       "value": 15
     },
@@ -677,8 +677,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7044228694714131,
-      "y": 0.8290993071593533,
+      "x": 0.7022653721682848,
+      "y": 0.8244803695150116,
       "uniqueID": "id-1487",
       "ioValues": [
         {
@@ -1015,7 +1015,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 15
         }
       ]
     }
@@ -1190,6 +1190,11 @@
       "ap2Name": "yDist",
       "ap1ID": "id-168",
       "ap2ID": "id-1503"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-168",
+      "ap2ID": "id-1750"
     },
     {
       "ap2Name": "yDist",
