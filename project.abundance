@@ -1001,8 +1001,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.807982740021575,
-      "y": 0.815242494226328,
+      "x": 0.8182308522114348,
+      "y": 0.8891454965357968,
       "uniqueID": "id-1750",
       "ioValues": [
         {
@@ -1016,6 +1016,22 @@
         {
           "name": "zDist",
           "ioValue": 15
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8586839266450917,
+      "y": 0.7344110854503464,
+      "uniqueID": "id-1969",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
         }
       ]
     }
@@ -1540,6 +1556,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-1744",
       "ap2ID": "id-1750"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-1744",
+      "ap2ID": "id-1969"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-1750",
+      "ap2ID": "id-1969"
     }
   ],
   "unitsKey": "MM",
