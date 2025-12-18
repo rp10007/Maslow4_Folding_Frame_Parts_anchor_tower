@@ -130,14 +130,14 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.12405609492988133,
-      "y": 0.46420323325635104,
+      "x": 0.09978425026968717,
+      "y": 0.5473441108545035,
       "uniqueID": "id-98",
       "name": "x/2",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 59.400000000000006
         }
       ],
       "currentEquation": "x/2"
@@ -151,7 +151,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 0.5
+          "ioValue": 29.700000000000003
         }
       ],
       "currentEquation": "-x"
@@ -934,6 +934,11 @@
       "ap2Name": "x",
       "ap1ID": "id-436",
       "ap2ID": "id-1102"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-436",
+      "ap2ID": "id-98"
     },
     {
       "ap2Name": "geometry2",
