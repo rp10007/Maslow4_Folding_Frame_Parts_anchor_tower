@@ -63,24 +63,6 @@
       "type": "number"
     },
     {
-      "atomType": "Equation",
-      "x": 0.09223300970873785,
-      "y": 0.44110854503464203,
-      "uniqueID": "id-36",
-      "name": "y - 4*x",
-      "ioValues": [
-        {
-          "name": "y",
-          "ioValue": 203
-        },
-        {
-          "name": "x",
-          "ioValue": 19.8
-        }
-      ],
-      "currentEquation": "y - 4*x"
-    },
-    {
       "atomType": "Constant",
       "x": 0.030744336569579287,
       "y": 0.6304849884526559,
@@ -136,8 +118,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.15210355987055016,
-      "y": 0.6951501154734411,
+      "x": 0.15264293419633224,
+      "y": 0.6766743648960739,
       "uniqueID": "id-95",
       "ioValues": [
         {
@@ -148,37 +130,17 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.09115426105717367,
-      "y": 0.5635103926096998,
+      "x": 0.12405609492988133,
+      "y": 0.46420323325635104,
       "uniqueID": "id-98",
       "name": "x/2",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 123.8
+          "ioValue": 1
         }
       ],
       "currentEquation": "x/2"
-    },
-    {
-      "atomType": "Move",
-      "x": 0.1850053937432578,
-      "y": 0.605080831408776,
-      "uniqueID": "id-102",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 50
-        },
-        {
-          "name": "yDist",
-          "ioValue": 61.9
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     },
     {
       "atomType": "Equation",
@@ -189,7 +151,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 61.9
+          "ioValue": 0.5
         }
       ],
       "currentEquation": "-x"
@@ -207,26 +169,6 @@
         }
       ],
       "currentEquation": "x/2"
-    },
-    {
-      "atomType": "Move",
-      "x": 0.19147788565264293,
-      "y": 0.7413394919168591,
-      "uniqueID": "id-125",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 50
-        },
-        {
-          "name": "yDist",
-          "ioValue": -61.9
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     },
     {
       "atomType": "Equation",
@@ -315,8 +257,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.09762675296655879,
-      "y": 0.15704387990762125,
+      "x": 0.10086299892125135,
+      "y": 0.13394919168591224,
       "uniqueID": "id-436",
       "name": "3*x",
       "ioValues": [
@@ -343,8 +285,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.32038834951456313,
-      "y": 0.2863741339491917,
+      "x": 0.3074433656957929,
+      "y": 0.35334872979214776,
       "uniqueID": "id-1084",
       "ioValues": [
         {
@@ -856,11 +798,6 @@
     {
       "ap2Name": "x",
       "ap1ID": "id-16",
-      "ap2ID": "id-36"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-16",
       "ap2ID": "id-436"
     },
     {
@@ -894,11 +831,6 @@
       "ap2ID": "id-1487"
     },
     {
-      "ap2Name": "y",
-      "ap1ID": "id-19",
-      "ap2ID": "id-36"
-    },
-    {
       "ap2Name": "x",
       "ap1ID": "id-19",
       "ap2ID": "id-84"
@@ -922,11 +854,6 @@
       "ap2Name": "x length",
       "ap1ID": "id-24",
       "ap2ID": "id-1088"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-36",
-      "ap2ID": "id-98"
     },
     {
       "ap2Name": "x",
@@ -959,39 +886,9 @@
       "ap2ID": "id-1465"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-95",
-      "ap2ID": "id-102"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-95",
-      "ap2ID": "id-125"
-    },
-    {
-      "ap2Name": "yDist",
-      "ap1ID": "id-98",
-      "ap2ID": "id-102"
-    },
-    {
       "ap2Name": "x",
       "ap1ID": "id-98",
       "ap2ID": "id-108"
-    },
-    {
-      "ap2Name": "yDist",
-      "ap1ID": "id-108",
-      "ap2ID": "id-125"
-    },
-    {
-      "ap2Name": "xDist",
-      "ap1ID": "id-118",
-      "ap2ID": "id-102"
-    },
-    {
-      "ap2Name": "xDist",
-      "ap1ID": "id-118",
-      "ap2ID": "id-125"
     },
     {
       "ap2Name": "x",
