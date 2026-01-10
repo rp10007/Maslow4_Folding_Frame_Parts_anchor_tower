@@ -110,6 +110,12 @@
       "y": 0.4988452655889145,
       "uniqueID": "id-108",
       "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 29.700000000000003
+        }
+      ],
       "currentEquation": "-x"
     },
     {
@@ -304,6 +310,10 @@
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 178.4
         }
       ]
     },
@@ -345,6 +355,10 @@
       "y": 0.13163972286374134,
       "uniqueID": "id-1110",
       "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 158.4
+        },
         {
           "name": "y length",
           "ioValue": 260
@@ -416,6 +430,10 @@
           "ioValue": 0
         },
         {
+          "name": "yDist",
+          "ioValue": 130
+        },
+        {
           "name": "zDist",
           "ioValue": 0
         }
@@ -436,6 +454,10 @@
           "ioValue": 0
         },
         {
+          "name": "yDist",
+          "ioValue": -130
+        },
+        {
           "name": "zDist",
           "ioValue": 0
         }
@@ -447,6 +469,12 @@
       "y": 0.4503464203233256,
       "uniqueID": "id-1253",
       "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 130
+        }
+      ],
       "currentEquation": "-x"
     },
     {
@@ -475,6 +503,12 @@
       "y": 0.7020785219399538,
       "uniqueID": "id-1262",
       "name": "x-20",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 130
+        }
+      ],
       "currentEquation": "x-20"
     },
     {
@@ -490,6 +524,10 @@
         {
           "name": "xDist",
           "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 110
         },
         {
           "name": "zDist",
@@ -512,6 +550,10 @@
           "ioValue": 0
         },
         {
+          "name": "yDist",
+          "ioValue": -110
+        },
+        {
           "name": "zDist",
           "ioValue": 0
         }
@@ -523,6 +565,12 @@
       "y": 0.7967667436489608,
       "uniqueID": "id-1282",
       "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 110
+        }
+      ],
       "currentEquation": "-x"
     },
     {
@@ -695,6 +743,12 @@
       "y": 0.833718244803695,
       "uniqueID": "id-1483",
       "name": "x + 20",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 158.4
+        }
+      ],
       "currentEquation": "x + 20"
     },
     {
@@ -706,6 +760,10 @@
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -89.2
         },
         {
           "name": "yDist",
@@ -723,6 +781,12 @@
       "y": 0.930715935334873,
       "uniqueID": "id-1493",
       "name": "-.5*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 178.4
+        }
+      ],
       "currentEquation": "-.5*x"
     },
     {
@@ -784,6 +848,10 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
+          "name": "xDist",
+          "ioValue": 29.700000000000003
+        },
+        {
           "name": "yDist",
           "ioValue": 0
         },
@@ -802,6 +870,10 @@
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -29.700000000000003
         },
         {
           "name": "yDist",
@@ -852,6 +924,10 @@
           "ioValue": 0
         },
         {
+          "name": "yDist",
+          "ioValue": -50
+        },
+        {
           "name": "zDist",
           "ioValue": 0
         }
@@ -896,6 +972,10 @@
           "ioValue": 0
         },
         {
+          "name": "yDist",
+          "ioValue": -50
+        },
+        {
           "name": "zDist",
           "ioValue": 0
         }
@@ -912,6 +992,14 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
+          "name": "xDist",
+          "ioValue": -2.262741699796952
+        },
+        {
+          "name": "yDist",
+          "ioValue": -2.262741699796952
+        },
+        {
           "name": "zDist",
           "ioValue": 0
         }
@@ -926,6 +1014,10 @@
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -2.262741699796952
         },
         {
           "name": "yDist",
@@ -950,6 +1042,10 @@
         {
           "name": "xDist",
           "ioValue": 2.262741699796952
+        },
+        {
+          "name": "yDist",
+          "ioValue": -2.262741699796952
         },
         {
           "name": "zDist",
