@@ -1201,7 +1201,7 @@
       "name": "README",
       "ioValues": [
         {
-          "name": "geometry",
+          "name": "value",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
@@ -1749,11 +1749,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-1974",
       "ap2ID": "id-14"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-1974",
-      "ap2ID": "id-1978"
     }
   ],
   "unitsKey": "MM",
